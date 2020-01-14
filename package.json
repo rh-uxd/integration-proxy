@@ -1,0 +1,11 @@
+{
+  "name": "integration-proxy",
+  "version": "0.0.1",
+  "description": "Integration proxy used for communicating over a single end point.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Red Hat",
+  "license": "MIT"
+}
