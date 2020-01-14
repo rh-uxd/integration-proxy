@@ -2,10 +2,21 @@
   "name": "integration-proxy",
   "version": "0.0.1",
   "description": "Integration proxy used for communicating over a single end point.",
-  "main": "index.js",
+  "main": "dist/server.js",
   "scripts": {
+    "start": "tsc && node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Red Hat",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/http-proxy": "^1.17.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "http-proxy": "^1.18.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
 }
