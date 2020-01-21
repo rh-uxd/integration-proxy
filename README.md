@@ -1,1 +1,1 @@
-HTTP Proxy server used with Red Hat Middleware products.
+HTTP server used with Red Hat Middleware products.
